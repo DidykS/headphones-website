@@ -1,0 +1,65 @@
+/* Colors 
+    soft red: #fe7867
+    yellow: #fad400
+    graphic design text: #25564b
+    photography text: #19536b
+    footer: #458c7e
+
+  Neutral:
+    h2, btn, names: #23303e
+    text: #5a636c
+    work: #a7abae
+    white: #fffb8f
+*/
+
+
+
+/* MAIN STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  background-color: #fffbf8;
+  color: #5a636c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #23303e;
+}
+
+h3 {
+  color: #a7abae;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
