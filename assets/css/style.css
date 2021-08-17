@@ -23,7 +23,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -314,4 +314,21 @@ a {
 .client__work {
   font-size: 13px;
   color: #a7abae;
+}
+
+
+/* WORKS */
+.works {
+
+}
+
+.works__item {
+  width: 25%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.works__img {
+  width: 100%;
+  height: auto;
 }
