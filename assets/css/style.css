@@ -89,6 +89,19 @@ a {
   align-items: center;
 }
 
+/* FIXED HEADER */
+.header.fixed {
+  position: fixed;
+  z-index: 200;
+  height: auto;
+  padding: 5px 10px;
+
+  background-color: #3ebfff;
+}
+
+.header.fixed .nav__link {
+  padding: 10px 20px;
+}
 
 
 /* NAV */
@@ -460,7 +473,7 @@ a {
 @media (max-width: 768px) {
   /* nav and show menu */
   .nav {
-    position: fixed;
+    position: absolute;
     top: -210px;
     left: 0;
     width: 100%;
