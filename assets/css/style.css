@@ -150,7 +150,7 @@ a {
 
 /* SECTION */
 .section {
- 
+ overflow: hidden;
 }
 
 /* FIRST SECTION */
@@ -162,12 +162,12 @@ a {
   margin: 0 -15px;
 }
 
-.section__inner--item {
+.section__item {
   width: 50%;
   overflow: hidden;
 }
 
-.transform--content {
+.section__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
