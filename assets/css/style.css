@@ -232,4 +232,40 @@ a {
 
 
 
+/* ITEM */
+.item {
+  position: relative;
+}
+
+.item__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  text-align: center;
+  padding-bottom: 60px;
+  
+}
+
+.item__text {
+  width: 100%;
+  max-width: 350px;
+}
+
+.item__title {
+  font-family: 'Fraunces', serif;
+}
+
+.item__slogo {
+  margin-top: 40px;
+}
+
 
