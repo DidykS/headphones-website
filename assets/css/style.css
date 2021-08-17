@@ -104,7 +104,7 @@ a {
   color: #fff;
   font-size: 18px;
 
-  transition: 0.4s linear;
+  transition: background 0.4s linear;
 }
 
 .nav__link:first-child {
@@ -114,6 +114,18 @@ a {
 .nav__link:hover {
   border-radius: 30px;
   background: rgba(255,255,255, 0.5);
+}
+
+.nav__close {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* show menu */
+.show__memu {
+  display: none;
+  color: #fff;
 }
 
 
@@ -403,3 +415,136 @@ a {
   margin-left: 0;
 }
 
+
+
+/* MEDIA */
+@media (max-width: 991px) {
+  .header {
+    padding: 30px 35px;
+  }
+
+  .intro__title {
+    font-size: 60px;
+  }
+
+  .intro__img {
+    margin-top: 160px;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .section__title {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+  }
+  
+  .section__text {
+    margin: 50px 0;
+  
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* nav and show menu */
+  .nav {
+    position: fixed;
+    top: -210px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #3ebfff;
+    transition: 0.4s linear;
+  }
+
+  .nav__link {
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  .nav__close {
+    margin: 10px 0;
+    display: flex;
+  }
+
+  .show__memu {
+    display: flex;
+  }
+  
+  .nav.active {
+    top: 0;
+  }
+
+  /* content */
+  .content {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .section__title {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+  }
+  
+  .section__text {
+    margin: 45px 0;
+  
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  /* third section */
+  .item__content {
+    padding-bottom: 40px;
+    
+  }
+  
+  .item__text {
+    font-size: 15px;
+  }
+  
+  .item__title {
+    font-size: 18px;
+  }
+  
+  .item__slogo {
+    margin-top: 20px;
+  }
+
+  /* client */
+  .client {
+    margin: 100px 0;
+  }
+
+  .client__title {
+    margin-bottom: 80px;
+  }
+
+  .client__item {
+    padding: 0 30px;
+  }
+
+  .client__img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+  }
+  
+  .client__text {
+    margin-bottom: 20px;
+    height: 150px;
+  }
+}
