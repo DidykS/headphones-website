@@ -269,3 +269,49 @@ a {
 }
 
 
+
+/* CLIENT */
+.client {
+  margin: 150px 0;
+}
+
+.client__inner {
+  display: flex;
+}
+
+.client__title {
+  margin-bottom: 100px;
+
+  font-family: 'Fraunces', serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a7abae;
+}
+
+.client__item {
+  padding: 0 30px;
+  width: 33.3333%;
+  text-align: center;
+}
+
+.client__img {
+  margin-bottom: 60px;
+  border-radius: 50%;
+}
+
+.client__text {
+  margin-bottom: 70px;
+  line-height: 1.5;
+}
+
+.client__name {
+  margin-bottom: 8px;
+
+  font-family: 'Fraunces', serif;
+  color: #23303e;
+}
+
+.client__work {
+  font-size: 13px;
+  color: #a7abae;
+}
